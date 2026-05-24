@@ -22,7 +22,6 @@ This is one of the most compelling examples of **mechanistic interpretability le
 
 Let's break down what they discovered — and why it matters.
 
----
 
 ## The Promise of Mamba
 
@@ -39,7 +38,6 @@ That compactness makes Mamba fast.
 
 But compression always introduces risk.
 
----
 
 ## Compression Always Creates Risk
 
@@ -61,7 +59,6 @@ The result?
 
 And the failures aren't random — they appear as measurable geometric patterns inside the model.
 
----
 
 ## The Discovery: Entropy Spikes
 
@@ -77,7 +74,6 @@ Traffic slows. Signals collide. Important information gets lost.
 
 That's essentially what happens inside these activation bottlenecks — which explains why Mamba can forget earlier details, fail at multi-step reasoning, or lose coherence across long sequences, even though the architecture is theoretically built for exactly those tasks.
 
----
 
 ## The Most Surprising Result
 
@@ -97,7 +93,6 @@ This is remarkable because it suggests the knowledge already exists inside the m
 
 They also validated the finding architecturally with **Stable-Mamba** — a modified design that smooths information flow structurally, with minimal parameter overhead and meaningful gains in long-context stability. The bottlenecks weren't just an observation. They were causal.
 
----
 
 ## Why This Matters Beyond Mamba
 
@@ -113,7 +108,6 @@ But this work suggests another frontier: improving how information moves interna
 
 That opens the door to inference-time steering, activation engineering, controllable reasoning, and architecture-aware debugging. It's a different kind of optimization — not brute-force scaling, but understanding.
 
----
 
 ## A Bigger Question
 
