@@ -1,4 +1,4 @@
-<img width="1484" height="883" alt="image" src="https://github.com/user-attachments/assets/be59ac9b-2491-4c81-9c4c-c56b724a6760" /># Building an End-to-End RLHF Platform: From GPT-2 to Reward Models, DPO, and GRPO
+# Building an End-to-End RLHF Platform: From GPT-2 to Reward Models, DPO, and GRPO
 
 Large Language Models are no longer improved by simply training on more data.
 
