@@ -1,4 +1,4 @@
-# Building an End-to-End RLHF Platform: From GPT-2 to Reward Models, DPO, and GRPO
+<img width="1484" height="883" alt="image" src="https://github.com/user-attachments/assets/be59ac9b-2491-4c81-9c4c-c56b724a6760" /># Building an End-to-End RLHF Platform: From GPT-2 to Reward Models, DPO, and GRPO
 
 Large Language Models are no longer improved by simply training on more data.
 
@@ -271,25 +271,17 @@ Side-by-side base GPT-2 vs after SFT on the same prompts (`compare` run, 2026-06
 | John has 15 apples, buys 23 more | 38 | *"The average amount of apples you buy each year is 16.3 million…"* | `38` | 35% | 75% |
 | Train 120 mi in 2 hr — speed? | 60 mph | *Repeats prompt in a loop* | `60 mph` | 35% | 75% |
 
-*Source: `outputs/multi_model_details.json` from validation run.*
 
 ### Visual Results
 
 #### Metric comparison (base vs after SFT)
 
-![Metrics comparison: Base GPT-2 vs After RLHF](docs/results/metrics_comparison.png)
-
-#### Per-question performance
-
-![Per-sample overall scores across 5 comparison prompts](docs/results/per_sample.png)
-
-#### Improvement delta (after − before)
-
-![RLHF improvement by metric in percentage points](docs/results/improvement_delta.png)
+<img width="1484" height="883" alt="image" src="https://github.com/user-attachments/assets/c36fc231-5747-42d1-a356-4f3361cb13d1" />
 
 #### Metric profile (radar)
 
-![Radar chart: reasoning, accuracy, faithfulness, truthfulness, safety](docs/results/radar.png)
+<img width="1032" height="883" alt="image" src="https://github.com/user-attachments/assets/8171d2a4-d6df-4e0c-b94c-0439f4ce32e9" />
+
 
 ### Key takeaways
 
